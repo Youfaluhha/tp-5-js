@@ -1,0 +1,10 @@
+let a = prompt("Entrez le premier nombre :");
+let b = prompt("Entrez le deuxième nombre :");
+
+a = Number(a);
+b = Number(b);
+
+alert("Somme = " + (a + b));
+alert("Différence = " + (a - b));
+alert("Produit = " + (a * b));
+alert("Quotient = " + (a / b));
